@@ -1,0 +1,21 @@
+/*** Navbar ***/
+.navbar-default {
+    background-color: #186774;
+    border-radius: 0;
+    background-image: none;
+}
+
+/* Navbar Title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.narvar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #103DSC;
+}
