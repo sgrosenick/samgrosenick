@@ -1,6 +1,6 @@
 /*** Navbar ***/
 .navbar-default {
-    background-color: #186774;
+    background-color: #103D5C;
     border-radius: 0;
     background-image: none;
 }
@@ -9,6 +9,7 @@
 .navbar-default .navbar-brand {
     color: white;
     font-size: 20px;
+    font-family: 'Halvetica';
     font-weight: bold;
 }
 
@@ -17,5 +18,43 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #103DSC;
+    color: white;
+}
+
+.navbar .collapse navbar-collapse {
+    color: black;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: darkgrey;
+    background-size: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Halvetica';
+    background-color: aliceblue;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+#about-world {
+    max-height: 200px;
 }
