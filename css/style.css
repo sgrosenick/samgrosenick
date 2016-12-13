@@ -32,10 +32,9 @@
 
 .jumbotron {
     background-color: darkgrey;
-    background-size: 50%;
     text-align: center;
     color: #fff;
-    padding: 1%;
+    padding: 2%;
 }
 
 .jumbotron h2 {
