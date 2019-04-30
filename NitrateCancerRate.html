@@ -2,8 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <meta name="viewport" content="width=device-width, inital-scale=1"/>
+        <meta name="keywords" content="maps, cartography, gis, grosenick"/>
         <title>Sam Grosenick</title>
+        
         
         <!--put your Bootstrap stylesheet links below this comment and above style.css-->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -35,22 +37,24 @@
                 </div> <!-- end .navbar-collapse -->
             </div> <!-- end container -->
         </nav>
-        
+    
         <div class="jumbotron">
             <div class="container">
-                <h2>Contact</h2>
+                <h2>Cancer Rates and Nitrate in Wisconsin</h2>
             </div>
         </div>
         
         <div class="container">
             <div class="row">
-                <h3><strong>Email: </strong>srgrosenick@gmail.com</h3>
-                <h3><strong>Twitter: </strong>@thegrozz</h3>
-                <h3><strong>GitHub: </strong>sgrosenick</h3>
+                <div class="col-md-6">
+                    <div class="main map">
+                        <img src="assets/CancerRate_HexBin.png" height="90%" width="90%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p>Cancer Rates and Nitrate in Wisconsin is a tool for exploring the relationship between cancer rates and nitrate levels in Wisconsin. The site allows users to run interpolation on nitrate wells, at different kilometer hexbin sizes. This result is then used to run a linear regression on cancer rates in the state to see if there is any relationship between the two.</p>
+                </div>
             </div>
         </div>
-        
-        <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="lib/bootstrap.min.js"></script>
-        
     </body>
+</html>
